@@ -1,0 +1,82 @@
+,slots,intent_label
+0,O O B-Amount I-Amount I-Amount O O O B-Bankname O O B-Accountnumber O O B-Username I-Username O O O O O O O O B-exprdate O O O I-Amount I-Amount O O O O O O O O ,transaction_card
+1,O O O I-amount O O O O B-Bankname O O O O O O O ,transaction_card
+2,O B-Amount I-amount I-Amount O O O B-accountnumber O B-Bankname O O O O O O O B-iban O O B-Username O O O O O ,transaction_card
+3,O O O B-Bankname O O ,balance_query
+4,O O O B-Bankname O O O O O O O O O O O O O O O O I-amount O ,balance_query
+5,O O O O ,introduce
+6,O O O B-Bankname B-Billname I-Billname O O O ,bill_payment
+7,O O O O I-Amount I-Amount O O O O O O O O B-Bankname O O ,transaction_card
+8,O O B-Billname I-Billname O O O O O ,bill_payment
+9,O O O O O O B-Billname O O B-amount I-Amount I-Amount O O O O O O O ,bill_payment
+10,O O O O O O B-Amount I-amount O O O O O O O O ,transaction_paya
+11,O O O O O O O O I-amount I-Amount O O O ,transaction_paya
+12,O O O O O O O O O B-Amount I-Amount I-Amount O O O O O O ,transaction_card
+13,O O O O O O I-amount I-Amount O O O O O O O O O O O O O ,transaction_card
+14,O O B-Billname I-Billname O O O O O O B-Method B-Method O O ,bill_payment
+15,O O O O O O O I-Amount I-Amount O O O O O O O B-Bankname O O ,transaction_card
+16,O O O O O O O O O O O O O O O O ,transaction_card
+17,B-Billname I-Billname O O O O O B-Cartnumber O O ,bill_payment
+18,O O O O O O I-amount I-Amount O O B-Bankname O O O O O O O O O O O O O O O O O ,bill_payment
+19,O B-Billname O O O B-Bankname O ,bill_payment
+20,O O O O B-Cartnumber O O O O O O I-amount O O ,transaction_card
+21,O O O O O O O O O O O B-iban O O ,balance_query
+22,O O O O O O O I-Amount I-Amount O O O B-Bankname O O O O O O O O O O O O O ,transaction_card
+23,O O O B-Method O B-Method O O I-amount I-Amount O O O B-Bankname O O B-Bankname O O O O O O O O ,transaction_paya
+24,O O B-Billname O O O O ,bill_payment
+25,O O O B-Bankname O ,balance_query
+26,O O O O B-Amount I-Amount I-Amount O O O O O O O O O ,transaction_card
+27,O O O O O O O O ,balance_query
+28,O O O I-Amount I-Amount O O O O O B-Username O O O B-Bankname O O ,transaction_card
+29,O O B-Billname I-Billname O O O O O ,bill_payment
+30,O O O O O O O O O O O O ,balance_query
+31,O B-Billname I-Billname O O O B-Bankname O ,bill_payment
+32,O O B-Amount I-amount I-Amount O O O O O O O O ,transaction_card
+33,O O B-Username O ,introduce
+34,O O O B-Method O B-Amount I-amount I-Amount O B-Username I-Username O O O O O O O O O O B-Method O ,transaction_paya
+35,O O O O O B-Bankname O O O O B-iban O O B-username O O O ,balance_query
+36,O O O I-Amount I-Amount O O O O O O B-Bankname ,transaction_card
+37,O O O B-Bankname O O O ,balance_query
+38,O O O O O O O O I-amount I-Amount O O O O O O O O O O O O O ,transaction_paya
+39,O O O O I-amount O O O O O O O O O O O O O O O O ,transaction_paya
+40,O O O O O O O O O O O I-amount I-Amount O O O ,transaction_paya
+41,O O O O I-Amount I-Amount O O O O O O O O O O O O O O O O O O ,transaction_card
+42,O O B-Billname I-Billname O O O B-Amount I-Amount I-Amount O O O O O O ,bill_payment
+43,O O O O O O O O B-Cartnumber O O ,transaction_card
+44,O O O O O O O ,balance_query
+45,O O O O O O O O O O O O O O O O ,transaction_card
+46,O O B-Billname I-Billname O I-Billname O O I-Amount I-Amount O O O O O O O ,bill_payment
+47,O O O O O O I-amount I-Amount O O O O O O O ,transaction_card
+48,O O O O I-amount I-Amount O O O O O O O O O O O O O ,transaction_paya
+49,O O O B-amount I-Amount I-Amount O O O O O O O O O O O O ,transaction_card
+50,O O O O O O O O O O O O O O ,bill_payment
+51,O O O O O O O O O O O O ,balance_query
+52,O O O O O O ,balance_query
+53,O O O O O O I-amount I-Amount O O O O O I-username O O O B-Bankname O O ,transaction_card
+54,O O O B-Billname I-Billname O O O O O B-Bankname O O O O O ,bill_payment
+55,O O I-amount O O O B-Bankname O O O O O O ,transaction_card
+56,B-Billname I-Billname B-username I-Username O O O O O B-Bankname ,bill_payment
+57,O O I-amount O O B-Bankname O O O ,transaction_paya
+58,O O O O O O O I-Amount I-Amount O O B-Bankname O O O O O O O O O O ,transaction_card
+59,O O O O O O O O O O ,balance_query
+60,O O O B-Amount I-amount O O O O B-iban O ,transaction_paya
+61,O O O I-Username O O ,introduce
+62,O O O B-Method O O O B-Bankname B-amount I-amount O O O B-Bankname B-Method O ,transaction_paya
+63,O O O B-accountnumber O ,balance_query
+64,O B-Amount I-amount O O O O O ,transaction_card
+65,O O O O O O B-Amount I-Amount I-Amount O O O B-Bankname O O O B-Bankname O O O O ,transaction_card
+66,O O B-Bankname O I-amount O O O O O B-Username O O O O ,transaction_card
+67,O O O O O O O O O O O O O B-Username O O O O O B-amount I-amount O ,transaction_card
+68,O O B-Cartnumber O I-Billname O I-Billname O O O O ,bill_payment
+69,O O O O O O I-amount I-Amount O O O B-username I-Username O O O O O O B-Username O O O O O O O ,transaction_card
+70,B-Billname I-Billname O O O O O O ,bill_payment
+71,O O O O O O O O O ,balance_query
+72,O O O ,introduce
+73,O O B-Billname I-Billname O I-Billname O O O O O O O O B-Bankname ,bill_payment
+74,O O O O O O O O O O O I-Amount I-Amount O O O O O O O ,transaction_card
+75,O B-Billname I-Billname O O O O O O O B-Bankname O O O O O O B-Username I-Username O O O O O I-Amount I-Amount O O O O O ,bill_payment
+76,O O O O O I-Amount I-Amount O O O O O O O O O O O B-Bankname O O ,transaction_card
+77,O O B-Billname I-Billname O O O O O O O O O O ,bill_payment
+78,O O O O O O B-Billname O O O O O O O ,bill_payment
+79,O O O O O O O O O O I-amount I-Amount O O ,transaction_paya
+80,O O O O O O O O O O O O O O ,transaction_card

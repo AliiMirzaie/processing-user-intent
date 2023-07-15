@@ -1,0 +1,15 @@
+B-Bankname
+I-Bankname
+B-Billname
+I-Billname
+B-Cartnumber
+B-Accountnumber
+B-Username
+I-Username
+B-Iban
+B-Method
+I-Method
+B-Amount
+I-Amount
+B-Exprdate
+O
